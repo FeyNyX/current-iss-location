@@ -1,7 +1,7 @@
 <div>
     <table>
         <tr>
-            <td>Międzynarodowa Stacja Kosmiczna znajduje się nad: </td>
+            <td>Międzynarodowa Stacja Kosmiczna znajduje się nad </td>
             <td id="iss_location_output"></td>
         </tr>
     </table>

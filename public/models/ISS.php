@@ -37,8 +37,7 @@ class ISS
         if (isset($json->results[0])) {
             return $json->results[0]->formatted_address;
         } else {
-            // Sometimes there are problems with Google Maps API responding with no results even though the parameters are fine.
-            return '*chwilowy brak danych*';
+            return 'terenem niezamieszkanym.';
         }
     }
 }
